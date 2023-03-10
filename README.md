@@ -1,4 +1,3 @@
-# MTU_knock
-Knock sensor - Micro Tutor Uno
-A simple demonstration of using the piezo transducer on the Micro Tutor Uno board as a knock sensor.
-The piezo on A2 toggles the LED on A5 when given a sharp tap.
+# MTU
+A collection of simple programs to demonstrate the use of the peripherals.
+Knock - demonstrates the use of the piezo as a knock sensor to toggle a LED.
