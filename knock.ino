@@ -1,7 +1,7 @@
 /*
 Toggle a LED with a tap on a piezo transducer
 */
-//Define ports for the led and piezo
+//Define ports for the led and piezo transducer
 const int piezo A2;
 const int LED A5;
 
