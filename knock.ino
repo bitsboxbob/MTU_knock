@@ -1,9 +1,9 @@
 /*
 Toggle a LED with a tap on a piezo transducer
 */
-
-#define piezo A2
-#define LED A5
+//Define ports for the led and piezo
+const int piezo A2;
+const int LED A5;
 
 int knockValue = 0; //stores the value read from the piezo input
 int threshold = 50;  //the value above which the knockValue must reach
