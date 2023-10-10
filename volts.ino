@@ -22,11 +22,11 @@ int digitBits[11][8] =
 
 //Pin definitions
 const int segA = 4, segB = 5, segC = 6, segD = 7, segE = 8, segF = 9, segG = 10, dp = 11; //seg pin assignments
-#define comD1 13 //common pins for each digit
-#define comD2 12
-#define redLED A5 //traffic light leds
-#define yellowLED A4
-#define greenLED A3
+const int comD1 13; //common pins for each digit
+const int comD2 12;
+const int redLED A5; //traffic light leds
+const int yellowLED A4;
+const int greenLED A3;
 
 //Array definitions
 int segPin[8] = {segA, segB, segC, segD, segE, segF, segG, dp}; //segment pin array so they can be referenced 0-8
@@ -61,7 +61,7 @@ void setup() {
   pinMode(yellowLED, OUTPUT);
   pinMode(greenLED, OUTPUT);
 
-  startLEDs(); //Light the leds in turn to test.
+  startLEDs(); //Light the leds in turn to show activity.
 }
 
 void loop() {
