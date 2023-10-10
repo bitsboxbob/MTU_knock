@@ -2,7 +2,7 @@
 Make sounds with a murata piezo transducer on port A2. Resonant freq. 4kHz.
 */
 
-#define piezo A2
+const int piezo A2;
 
 
 
