@@ -31,10 +31,9 @@ int digitBits[11][8] =
 
 //Pin definitions
 const int segA = 4, segB = 5, segC = 6, segD = 7, segE = 8, segF = 9, segG = 10, dp = 11; //seg pin assignments
-//const int comD1 = 13, comD2 = 12; //commons for each digit
-#define comD1 13 //common pins for each digit
-#define comD2 12
-#define thermistor A1
+const int comD1 13; //common pins for each digit
+const int comD2 12;
+const int thermistor A1;
 
 //Array definitions
 int segPin[8] = {segA, segB, segC, segD, segE, segF, segG, dp}; //segment pin array so they can be referenced 0-8
